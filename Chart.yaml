@@ -1,0 +1,6 @@
+apiVersion: v2
+name: csa-demo-container-mj
+description: Whoami test application for demo-container-mj
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
