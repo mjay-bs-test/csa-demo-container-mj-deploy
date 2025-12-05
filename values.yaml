@@ -3,7 +3,7 @@ replicaCount: 1
 
 image:
   repository: ghcr.io/mjay-bs-test/csa-demo-container-mj
-  tag: latest
+  tag: f69a2b36f040addfe4d4c2781840a21459ce325b
   pullPolicy: IfNotPresent
 
 service:
