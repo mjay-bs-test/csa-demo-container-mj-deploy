@@ -1,0 +1,18 @@
+# Prod environment overrides
+replicaCount: 1
+
+resources:
+  requests:
+    memory: "64Mi"
+    cpu: "100m"
+  limits:
+    memory: "128Mi"
+    cpu: "200m"
+
+
+ingress:
+  className: "nginx-tietoevry"
+  host: csa-demo-container-mj.prod.tietoevry.platform-engineer.cloud
+  tls:
+    enabled: true
+    secretName: csa-demo-container-mj-prod-tls
